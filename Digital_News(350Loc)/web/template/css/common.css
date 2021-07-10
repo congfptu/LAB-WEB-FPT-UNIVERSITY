@@ -1,0 +1,66 @@
+.container {
+    max-width:860px;
+    margin: 0 auto;
+}
+body{
+    font-family: sans-serif;
+    color: #3E4E44;
+    background-color: #E7E7E7;
+}
+/*homePage*/
+.wrap-content {
+    background-image: url('../images/bg.jpg');
+    background-size:1000px;
+    background-repeat-x: no-repeat;
+    background-position: center;
+}
+.flex {
+    display: flex;
+}
+.news{
+    padding: 24px;
+    border-right-style: dotted;
+    border-right-color: #d2d2d2;
+    width: 78%;
+}
+.content-news{
+    margin-bottom: 0px;
+    line-height: 1.5;
+    font-weight:bold;
+    font-size:12px;
+}
+/*css for title */
+.title{
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/*css for datetime*/
+.writer-date{
+    color: gray; 
+    text-align: right;
+    font-size: 12px;
+}
+/*css for image*/
+.img-news {
+    max-width: 500px;
+}
+.img{
+    margin-top:10px;
+}
+/*footer*/
+.footer {
+    background-image: url('../images/footer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:1000px;
+    height: 78px;
+}
+.comment{
+    content: url('../images/comment.gif'); 
+}
+.time-icon{
+    content:url('../images/timeicon.gif'); 
+}
+

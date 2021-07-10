@@ -1,0 +1,76 @@
+body{
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+    width:100%;
+    min-width:1000px;
+}
+.header{
+    padding: 15px 0 30px;
+    background-color: #722f31;    
+}
+.header-inner{
+    width: 940px;
+    margin: 0 auto;
+    height: auto;
+    background-color: #722f31;
+}
+.header-inner .img{
+    width:auto;
+    height:70px;
+    float:left;
+    text-decoration: none;
+    margin-top:10px;
+    padding-right:20px;
+    content: url('../images/logo.png');
+    background-repeat: no-repeat;
+}
+
+.title{
+    color: #fff;
+    font-size: 50px;
+    line-height: 45px;
+    padding: 6px 0;
+    margin-left: 94px;
+    font-family: serif;
+
+}
+.subtitle{
+    color: #fff;
+    font-size: 22px;
+    padding: 2px 0;
+    margin-left: 94px;
+    font-family:serif;
+    font-style: normal;
+}
+.nav{   
+    background-color: #303030;
+    font-size: 16px;        
+}
+.nav-inner{
+    margin:0 auto;
+    width: 940px;
+    border-right: 1px grey solid;
+    height: 40px;
+}
+.nav-inner ul{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    display:flex;
+}
+.nav-inner li{
+    text-align: center;
+    border-left: 1px grey solid;
+    padding: 0 15px;  
+}
+
+.nav-inner li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 40px;
+}
+.activeMenu{
+    font-weight: bold;
+}
+
+

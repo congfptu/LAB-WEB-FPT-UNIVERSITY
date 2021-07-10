@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 21, 2021, 10:21:53 AM
+    Author     : congfptu
+*/
+.not-found{
+    color:red;
+    text-align: center;
+}
+/*search*/
+.news-search{
+    color: #3E4E44;
+}
+.news-keyword{
+    display:flex;
+}
+.news-keyword p{
+    margin-left:40px;
+}
+.page_index a{
+   padding:2px;
+   margin-left:2px;
+   font-size:20px;
+}
+.page_index span
+{
+    background-color:#eee;
+    font-size:20px;
+}
+.news-keyword img{
+    width:150px; 
+    height:auto;  
+}

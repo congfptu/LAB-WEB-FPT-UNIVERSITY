@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 31, 2021, 12:34:48 PM
+    Author     : congfptu
+*/
+
+html{
+    height: 100%;
+    font-family: sans-serif;
+}
+body{
+    background-image: url("../images/bg.jpg"); 
+    background-repeat: repeat-x;
+    justify-content: center; 
+    display: flex;
+}
+.container{
+   
+    width: 700px;
+    height: 700px;
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.title{
+    font-weight: bold;
+    color: #658fa9;
+    margin-right: 10px;
+    display: inline-block;
+    min-width: 100px;
+    text-decoration: none;
+}
+.text-display{
+    margin-right: 0px !important;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.infor{
+    color: #1919ff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5px;
+
+}
+.form-button{
+    font-weight: 700;  
+    margin-left: 114px;
+}
+#form-title{
+    font-size: 25px;
+    color:#000080;
+    font-weight: bold;
+    margin: 20px 0px; 
+}
+.item-form{
+    background-color: #faffbd;
+    font-weight: 600;
+    margin-bottom:10px;
+    
+}
+.content{
+    margin-top:0px;
+    margin:50px 40px;
+}
+.mess{
+    height: 50px;
+    color: red;
+    margin: 0;
+}
+.mess-error{
+    margin: 20px 40px;
+}
+.button{
+    margin-top:10px;
+}
+.label{
+    display: inline;
+    color: #658fa9; 
+    font-size: 18px;
+    font-weight: bold;
+    color: #658fa9;
+    margin-right: 10px;
+    min-width: 100px;
+}
+
+#userName,#password,#email{
+    background-color: #faffbd;
+    font-weight: 600;
+
+}
+.form-item{
+    display:flex;
+    margin-bottom:10px;
+}
+.button-login{
+    margin-top:10px;
+    margin-left:115px;
+}
+

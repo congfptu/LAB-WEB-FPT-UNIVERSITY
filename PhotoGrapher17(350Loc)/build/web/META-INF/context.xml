@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context path="/Cong_Photographer17" antiJARLocking="true">
+
+<Environment value="jdbc:sqlserver://localhost:1433;databaseName=photo" type="java.lang.String" name="dbURL"/>
+
+<Environment value="sa" type="java.lang.String" name="dbUsername"/>
+
+<Environment value="123456" type="java.lang.String" name="dbPassword"/>
+
+<Environment value="images/" type="java.lang.String" name="image"/>
+
+</Context>

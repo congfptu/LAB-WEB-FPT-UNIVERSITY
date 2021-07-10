@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 21, 2021, 9:45:39 AM
+    Author     : congfptu
+*/
+/*css for aside*/
+.aside{
+    width:22%;
+    padding-top:24px;
+    padding-left:20px;
+    padding-right:24px;
+    
+}
+/*css for search by keyword*/
+.search {
+    border-color: gray;
+    width: 140px;  
+     border-style: dotted;   
+}
+.search-btn{
+    color: #122319;
+    font-weight: bold;
+    border-style: none;
+    background:none;
+}
+/*css for list top 5 articles*/
+.list-articles {
+    list-style: none;
+    font-size: 12px;
+    padding-left:0px;
+}
+.list-news-item{
+    margin-bottom:24px
+}
+.list-news-item a{
+    color: #3E4E44;
+    text-decoration: underline;
+}
+.top-articles{
+      padding-top:24px;
+    }

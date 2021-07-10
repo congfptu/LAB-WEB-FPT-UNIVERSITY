@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 21, 2021, 9:45:26 AM
+    Author     : congfptu
+*/
+.pre-header {
+   background-image: url('../images/preheader.jpg');
+    height:60px;
+    background-size:1000px;
+    background-repeat-x: no-repeat;
+    background-position: center;
+}
+/*header*/
+.banner {
+    background-image: url('../images/header.jpg');
+    height: 80px;
+    background-size:1000px;
+    background-repeat-x: no-repeat;
+    background-position: center;
+}
+/*News*/
+.navigation {
+    background-image: url('../images/menu.jpg');
+    background-size:1000px;
+    height:38px;
+    background-position: center;
+    background-repeat-x: no-repeat;
+}
+.banner-text{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left:28px;
+}
+.menu-item{
+    color: white;
+    margin-left:28px;
+    font-weight:bold;
+}
+.menu-item-home{
+    color: white;
+    text-decoration: none;
+}
+.menu{
+    list-style: none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top:10px;
+}
